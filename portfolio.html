@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <title>CreatiVista Portfolio</title>
+    <link rel="stylesheet" href="styles/portfolio.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="assets/logo.png" alt="CreatiVista Logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="service-dropdown">
+              <a href="#services" class="service-link">Services</a>
+              <ul class="service-links-dropdown">
+                  <li><a href="#services-logo">Logo Design</a></li>
+                  <li><a href="#services-social-media">Social Media Ads</a></li>
+                  <li><a href="#services-album">Album Design</a></li>
+                  <li><a href="#services-print-media">Print Media</a></li>
+                  <li><a href="#services-ads">Ads</a></li>
+              </ul>
+          </li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li class="contact-dropdown">
+              <a href="index.html#contact" class="contact-link">Contact Us</a>
+              <ul class="social-links-dropdown">
+                  <li><a href="https://www.instagram.com/creativista.in/" target="_blank">Instagram</a></li>
+                  <li><a href="https://www.facebook.com/profile.php?id=61572522250253" target="_blank">Facebook</a></li>
+                  <li><a href="https://wa.me/+917339645600" target="_blank">WhatsApp</a></li>
+                  <li><a href="index.html#contact" target="_blank">Request Call</a></li>
+              </ul>
+          </li>
+        </ul>
+    </nav>
+        <h1>Explore Our Stunning Creations</h1>
+    </header>
+    
+    <section class="services" id="services-logo">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>Logo Design</h3>
+            <p>Creative and professional logo design that represents your brand.</p>
+            <div class="slideshow" id="logo-slideshow"></div>
+            <button class="get-quote-btn">Get Quote!</button>
+        </div>
+        <div class="service-item" id="services-social-media">
+            <h3>Poster Design (Social Media)</h3>
+            <p>Creative and professional poster design that engages your audience.</p>
+            <div class="slideshow" id="poster-slideshow"></div>
+            <button class="get-quote-btn">Get Quote!</button>
+        </div>
+        <div class="service-item" id="services-album">
+            <h3>Album Design</h3>
+            <p>Creative and professional album design for your memories.</p>
+            <div class="slideshow" id="album-slideshow"></div>
+            <button class="get-quote-btn">Get Quote!</button>
+        </div>
+        <div class="service-item" id="services-print-media">
+            <h3>Print Media Design</h3>
+            <p>High-quality print designs for all your business needs.</p>
+            <div class="slideshow" id="print-slideshow"></div>
+            <button class="get-quote-btn">Get Quote!</button>
+        </div>
+        <div class="service-item" id="services-ads">
+            <h3>Ads Design</h3>
+            <p>Professional ad designs that capture attention and drive engagement.</p>
+            <div class="slideshow" id="ads-slideshow"></div>
+            <button class="get-quote-btn">Get Quote!</button>
+        </div>
+    </section>
+    
+    <section class="happy-customers">
+        <h2>Happy Customers</h2>
+        <div class="customer-logos" id="customer-slideshow"></div>
+        <a href="index.html#contact">
+            <button>Let's Create Your Brand Logo</button>
+        </a>
+    </section>
+    
+    <!-- Pop-up Modal -->
+<div id="quote-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Contact Us</h2>
+        <p>📞 Mobile: <strong>+91 73396 456 00</strong></p>
+
+        <!-- QR Code -->
+        <p>📱 Scan to Chat on WhatsApp:</p>
+        <img src="assets/qr.png" 
+             alt="WhatsApp QR Code" width="150" height="150">
+
+        <!-- WhatsApp Button -->
+        <br>
+        <a href="https://wa.me/917339645600?text=Hey!%20I%20need%20a%20design%20quote%20for%20my%20business." target="_blank" class="whatsapp-btn">
+            Chat on WhatsApp
+        </a>
+    </div>
+</div>
+
+
+
+    <footer class="footer">
+        <p>© 2025 CreatiVista Studio. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61572522250253" target="_blank"><img src="assets/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/creativista.in/" target="_blank"><img src="assets/instagram.png" alt="Instagram"></a>
+            <a href="https://wa.me/+917339645600" target="_blank"><img src="assets/linkedin.png" alt="WhatsApp"></a>
+            <a href="https://x.com/Creativista_in" target="_blank"><img src="assets/twitter.png" alt="Twitter"></a>
+        </div>
+    </footer>
+    <script src="Scripts/portfolio.js"></script>
+</body>
+</html>
